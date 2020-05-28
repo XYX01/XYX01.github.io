@@ -1,0 +1,46 @@
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+h2, h3, h4 {
+    font-size: 40px;
+}
+
+p, li {
+    font-size: 26px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+html {
+    background-color: #F3CDCD;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    padding: 0px 40px 10px 40px;
+    border-width: 5pk;
+    border-style: solid;
+    border-color: black;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #F3CDCD;
+    text-shadow: 3px 3px 1px black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
