@@ -1,11 +1,17 @@
 html {
     font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
     font-family: 'Shadows Into Light', cursive;
+    background: linear-gradient(45deg, #CCFFFF, #FFCCCC);
 }
+
 
 h1 {
     font-size: 60px;
     text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #F3CDCD;
+    text-shadow: 3px 3px 1px black;
 }
 
 h2, h3, h4 {
@@ -24,7 +30,7 @@ html {
 
 body {
     width: 1000px;
-    margin: 0 auto;
+    margin: 40px auto;
     background-color: blanchedalmond;
     padding: 0px 40px 10px 40px;
     border-width: 5pk;
@@ -32,15 +38,81 @@ body {
     border-color: black;
 }
 
-h1 {
-    margin: 0;
-    padding: 20px 0;
-    color: #F3CDCD;
-    text-shadow: 3px 3px 1px black;
-}
 
 img {
     display: block;
     margin: 0 auto;
     width: 300px;
+}
+
+img:hover{
+    transform: scale(1.5);
+}
+
+.heart {
+    position: fixed;
+    margin: 0;
+    top: 16px;
+    left: 20px;
+    bottom: 0;
+    background-color: blanchedalmond;
+    height: 30px;
+    width: 30px;
+    transform: rotate(-45deg);
+}
+
+.heart::after {
+    background-color: blanchedalmond;
+    content: "";
+    border-radius: 50%;
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    top: 0px;
+    left: 15px;
+}
+
+.heart::before {
+    content: "" ;
+    background-color: blanchedalmond;
+    border-radius: 50%;
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    top: -15px;
+    left: 0px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 60px;
+    margin-right: 20px;
+    color: #F3CDCD;
+    text-shadow: 1px 1px 1px black;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: pink;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
 }
