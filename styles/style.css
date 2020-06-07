@@ -134,3 +134,14 @@ a:hover{
     border: 1px solid pink;
     border-radius: 2px;
 }
+.change-button{
+    display: inline-block;
+    line-height: 28px;
+    color: #ffffff;
+    background-color: pink;
+    padding: 0px 12px;
+    margin-left: 0 5px;
+    font-weight: 700;
+    border: 1px solid pink;
+    border-radius: 2px;
+}
