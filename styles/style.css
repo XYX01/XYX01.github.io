@@ -4,7 +4,7 @@ html {
     background: linear-gradient(45deg, #CCFFFF, #FFCCCC);
 }
 
-
+/* Main Content Styling */
 h1 {
     font-size: 60px;
     text-align: center;
@@ -22,10 +22,6 @@ p, li {
     font-size: 26px;
     line-height: 2;
     letter-spacing: 1px;
-}
-
-html {
-    background-color: #F3CDCD;
 }
 
 body {
@@ -49,6 +45,7 @@ img:hover{
     transform: scale(1.5);
 }
 
+/* Beating Heart animation in navbar */
 .heart {
     position: fixed;
     margin: 0;
@@ -63,7 +60,6 @@ img:hover{
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
-
 .heart::after {
     background-color: blanchedalmond;
     content: "";
@@ -75,8 +71,6 @@ img:hover{
     left: 15px;
 
 }
-
-
 .heart::before {
     content: "" ;
     background-color: blanchedalmond;
@@ -86,10 +80,7 @@ img:hover{
     height: 30px;
     top: -15px;
     left: 0px;
-
 }
-
-
 @keyframes beat {
     0% {
       transform: scale(1) rotate(-45deg);
@@ -100,6 +91,7 @@ img:hover{
 
   }
 
+  /* Navigation Bar Styling */
 nav ul {
     margin: 0px;
     padding: 5px 0px 5px 30px;
@@ -112,17 +104,13 @@ nav li {
     color: #F3CDCD;
     text-shadow: 1px 1px 1px black;
 }
-
 a{
     text-decoration: none;
+    font-size: 25px;
 }
-
 a:hover{
     color: red;
 }
-
-
-
 #navbar {
     position: fixed;
     top: 0px;
@@ -132,4 +120,17 @@ a:hover{
     border-bottom-width: 5px;
     border-bottom-style: solid;
     border-bottom-color: black;
+}
+
+/* Footer Styling */
+.mail-button{
+    display: inline-block;
+    line-height: 28px;
+    color: #ffffff;
+    background-color: pink;
+    padding: 0px 12px;
+    margin-left: 0 5px;
+    font-weight: 700;
+    border: 1px solid pink;
+    border-radius: 2px;
 }
